@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Vlad\source\repos\arithEq\build\CMakeFiles\dddc50c3c3cb69c28147ac56b533a7c3\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CFEE7938-7B85-37A1-98C1-D7B8FD78DD86}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
