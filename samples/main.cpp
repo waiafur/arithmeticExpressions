@@ -2,7 +2,7 @@
 #include "MathEq.h"
 void main() {
 	try {
-		string test = "1+26*3";
+		string test = "33*2+1";
 		MathEq test1(test);
 		cout << test1.getRes();
 	}

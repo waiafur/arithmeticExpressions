@@ -1,0 +1,6 @@
+C:/Users/Vlad/source/repos/arithmeticExpressions/build/CMakeFiles/MathEq.dir
+C:/Users/Vlad/source/repos/arithmeticExpressions/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Vlad/source/repos/arithmeticExpressions/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Vlad/source/repos/arithmeticExpressions/build/samples/CMakeFiles/sample.dir
+C:/Users/Vlad/source/repos/arithmeticExpressions/build/gtest/CMakeFiles/gtest.dir
+C:/Users/Vlad/source/repos/arithmeticExpressions/build/test/CMakeFiles/test_MathEq.dir

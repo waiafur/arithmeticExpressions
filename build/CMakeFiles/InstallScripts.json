@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/Vlad/source/repos/arithmeticExpressions/build/cmake_install.cmake",
+		"C:/Users/Vlad/source/repos/arithmeticExpressions/build/samples/cmake_install.cmake",
+		"C:/Users/Vlad/source/repos/arithmeticExpressions/build/gtest/cmake_install.cmake",
+		"C:/Users/Vlad/source/repos/arithmeticExpressions/build/test/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
