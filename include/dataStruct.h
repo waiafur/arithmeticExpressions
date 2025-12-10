@@ -7,7 +7,11 @@ class stack {
 	T* mem;
 	int curr, len;
 public:
-	stack(int n) :curr(-1), len(n) {mem = new T[n];}
+	stack(int n) :curr(-1), len(n) {
+		if (n <= 1) throw "too small stack";
+		mem = new T[n];
+		
+	}
 	bool IsFull() { return curr == len - 1; }
 	bool IsEmpty() { return curr == -1; }
 	void push(T a) { 
@@ -50,7 +54,10 @@ class queue {
 	int len, fp, lp;
 	int next(int i) { return (i + 1) % len; }
 public:
-	queue(int n=1) :len(n+1), fp(0), lp(-1) { mem = new T[len]; }
+	queue(int n=2) :len(n+1), fp(0), lp(-1) { 
+		if (n <= 1) { throw "too small queue"; }
+		mem = new T[len]; 
+	}
 	bool IsFull() { return next(next(lp)) == fp; }
 	bool IsEmpty() { return next(lp) == fp; }
 	void push(T a) {

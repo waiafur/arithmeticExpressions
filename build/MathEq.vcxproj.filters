@@ -1,48 +1,48 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Vlad\source\repos\arithmeticExpressions\src\lexeminator.cpp">
+    <ClCompile Include="C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\src\lexeminator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Vlad\source\repos\arithmeticExpressions\src\postfixinator.cpp">
+    <ClCompile Include="C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\src\postfixinator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Vlad\source\repos\arithmeticExpressions\src\reshatinator.cpp">
+    <ClCompile Include="C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\src\reshatinator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Vlad\source\repos\arithmeticExpressions\src\syntaxinator.cpp">
+    <ClCompile Include="C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\src\syntaxinator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Vlad\source\repos\arithmeticExpressions\include\MathEq.h">
+    <ClInclude Include="C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\include\MathEq.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Vlad\source\repos\arithmeticExpressions\include\dataStruct.h">
+    <ClInclude Include="C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\include\dataStruct.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Vlad\source\repos\arithmeticExpressions\include\lexeminator.h">
+    <ClInclude Include="C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\include\lexeminator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Vlad\source\repos\arithmeticExpressions\include\postfixinator.h">
+    <ClInclude Include="C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\include\postfixinator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Vlad\source\repos\arithmeticExpressions\include\reshatinator.h">
+    <ClInclude Include="C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\include\reshatinator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Vlad\source\repos\arithmeticExpressions\include\syntaxinator.h">
+    <ClInclude Include="C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\include\syntaxinator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Vlad\source\repos\arithmeticExpressions\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{CE8788BC-4B10-37F7-A052-1D5662799D84}</UniqueIdentifier>
+      <UniqueIdentifier>{595D2118-59B2-39C4-A6B6-344ADA7C1348}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{FAC4C28C-87C9-34ED-9989-6FBAA7F89500}</UniqueIdentifier>
+      <UniqueIdentifier>{9CDD44A0-0110-36F6-9A29-3A82A339D0F4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Vlad\source\repos\arithmeticExpressions\samples\main.cpp">
+    <ClCompile Include="C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\samples\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Vlad\source\repos\arithmeticExpressions\samples\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\samples\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{FAC4C28C-87C9-34ED-9989-6FBAA7F89500}</UniqueIdentifier>
+      <UniqueIdentifier>{9CDD44A0-0110-36F6-9A29-3A82A339D0F4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

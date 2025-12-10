@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{7BD7D33A-BD86-3989-97A1-9058DD693B74}</ProjectGuid>
+    <ProjectGuid>{46ADF660-737A-321F-B5E4-751D5BF947A3}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Vlad\source\repos\arithmeticExpressions\build\samples\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\build\samples\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sample.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sample</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Vlad\source\repos\arithmeticExpressions\build\samples\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\build\samples\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sample.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sample</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Vlad\source\repos\arithmeticExpressions\build\samples\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\build\samples\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sample.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sample</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Vlad\source\repos\arithmeticExpressions\build\samples\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\build\samples\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sample.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sample</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Vlad\source\repos\arithmeticExpressions\include;C:\Users\Vlad\source\repos\arithmeticExpressions\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\include;C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -109,10 +109,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Vlad\source\repos\arithmeticExpressions\include;C:\Users\Vlad\source\repos\arithmeticExpressions\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\include;C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Vlad\source\repos\arithmeticExpressions\include;C:\Users\Vlad\source\repos\arithmeticExpressions\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\include;C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -127,9 +127,9 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>C:/Users/Vlad/source/repos/arithmeticExpressions/build/samples/Debug/sample.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/Vlad/source/repos/MathConstr/arithmeticExpressions/arithmeticExpressions/build/samples/Debug/sample.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>C:/Users/Vlad/source/repos/arithmeticExpressions/build/samples/Debug/sample.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/Vlad/source/repos/MathConstr/arithmeticExpressions/arithmeticExpressions/build/samples/Debug/sample.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -139,7 +139,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Vlad\source\repos\arithmeticExpressions\include;C:\Users\Vlad\source\repos\arithmeticExpressions\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\include;C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -163,10 +163,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Vlad\source\repos\arithmeticExpressions\include;C:\Users\Vlad\source\repos\arithmeticExpressions\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\include;C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Vlad\source\repos\arithmeticExpressions\include;C:\Users\Vlad\source\repos\arithmeticExpressions\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\include;C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -181,9 +181,9 @@
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>C:/Users/Vlad/source/repos/arithmeticExpressions/build/samples/Release/sample.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/Vlad/source/repos/MathConstr/arithmeticExpressions/arithmeticExpressions/build/samples/Release/sample.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>C:/Users/Vlad/source/repos/arithmeticExpressions/build/samples/Release/sample.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/Vlad/source/repos/MathConstr/arithmeticExpressions/arithmeticExpressions/build/samples/Release/sample.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -193,7 +193,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Vlad\source\repos\arithmeticExpressions\include;C:\Users\Vlad\source\repos\arithmeticExpressions\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\include;C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -217,10 +217,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Vlad\source\repos\arithmeticExpressions\include;C:\Users\Vlad\source\repos\arithmeticExpressions\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\include;C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Vlad\source\repos\arithmeticExpressions\include;C:\Users\Vlad\source\repos\arithmeticExpressions\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\include;C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -235,9 +235,9 @@
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>C:/Users/Vlad/source/repos/arithmeticExpressions/build/samples/MinSizeRel/sample.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/Vlad/source/repos/MathConstr/arithmeticExpressions/arithmeticExpressions/build/samples/MinSizeRel/sample.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>C:/Users/Vlad/source/repos/arithmeticExpressions/build/samples/MinSizeRel/sample.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/Vlad/source/repos/MathConstr/arithmeticExpressions/arithmeticExpressions/build/samples/MinSizeRel/sample.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -247,7 +247,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Vlad\source\repos\arithmeticExpressions\include;C:\Users\Vlad\source\repos\arithmeticExpressions\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\include;C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -270,10 +270,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Vlad\source\repos\arithmeticExpressions\include;C:\Users\Vlad\source\repos\arithmeticExpressions\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\include;C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Vlad\source\repos\arithmeticExpressions\include;C:\Users\Vlad\source\repos\arithmeticExpressions\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\include;C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -288,9 +288,9 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>C:/Users/Vlad/source/repos/arithmeticExpressions/build/samples/RelWithDebInfo/sample.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/Vlad/source/repos/MathConstr/arithmeticExpressions/arithmeticExpressions/build/samples/RelWithDebInfo/sample.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>C:/Users/Vlad/source/repos/arithmeticExpressions/build/samples/RelWithDebInfo/sample.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/Vlad/source/repos/MathConstr/arithmeticExpressions/arithmeticExpressions/build/samples/RelWithDebInfo/sample.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -299,11 +299,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Vlad\source\repos\arithmeticExpressions\samples\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\samples\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Vlad/source/repos/arithmeticExpressions/samples/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Vlad/source/repos/MathConstr/arithmeticExpressions/arithmeticExpressions/samples/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Vlad/source/repos/arithmeticExpressions -BC:/Users/Vlad/source/repos/arithmeticExpressions/build --check-stamp-file C:/Users/Vlad/source/repos/arithmeticExpressions/build/samples/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Vlad/source/repos/MathConstr/arithmeticExpressions/arithmeticExpressions -BC:/Users/Vlad/source/repos/MathConstr/arithmeticExpressions/arithmeticExpressions/build --check-stamp-file C:/Users/Vlad/source/repos/MathConstr/arithmeticExpressions/arithmeticExpressions/build/samples/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -312,11 +312,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Vlad\source\repos\arithmeticExpressions\build\samples\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\build\samples\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Vlad/source/repos/arithmeticExpressions/samples/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Vlad/source/repos/MathConstr/arithmeticExpressions/arithmeticExpressions/samples/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Vlad/source/repos/arithmeticExpressions -BC:/Users/Vlad/source/repos/arithmeticExpressions/build --check-stamp-file C:/Users/Vlad/source/repos/arithmeticExpressions/build/samples/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Vlad/source/repos/MathConstr/arithmeticExpressions/arithmeticExpressions -BC:/Users/Vlad/source/repos/MathConstr/arithmeticExpressions/arithmeticExpressions/build --check-stamp-file C:/Users/Vlad/source/repos/MathConstr/arithmeticExpressions/arithmeticExpressions/build/samples/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -325,11 +325,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Vlad\source\repos\arithmeticExpressions\build\samples\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\build\samples\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Vlad/source/repos/arithmeticExpressions/samples/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Vlad/source/repos/MathConstr/arithmeticExpressions/arithmeticExpressions/samples/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Vlad/source/repos/arithmeticExpressions -BC:/Users/Vlad/source/repos/arithmeticExpressions/build --check-stamp-file C:/Users/Vlad/source/repos/arithmeticExpressions/build/samples/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Vlad/source/repos/MathConstr/arithmeticExpressions/arithmeticExpressions -BC:/Users/Vlad/source/repos/MathConstr/arithmeticExpressions/arithmeticExpressions/build --check-stamp-file C:/Users/Vlad/source/repos/MathConstr/arithmeticExpressions/arithmeticExpressions/build/samples/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -338,11 +338,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Vlad\source\repos\arithmeticExpressions\build\samples\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\build\samples\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Vlad/source/repos/arithmeticExpressions/samples/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Vlad/source/repos/MathConstr/arithmeticExpressions/arithmeticExpressions/samples/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Vlad/source/repos/arithmeticExpressions -BC:/Users/Vlad/source/repos/arithmeticExpressions/build --check-stamp-file C:/Users/Vlad/source/repos/arithmeticExpressions/build/samples/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Vlad/source/repos/MathConstr/arithmeticExpressions/arithmeticExpressions -BC:/Users/Vlad/source/repos/MathConstr/arithmeticExpressions/arithmeticExpressions/build --check-stamp-file C:/Users/Vlad/source/repos/MathConstr/arithmeticExpressions/arithmeticExpressions/build/samples/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -351,23 +351,23 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Vlad\source\repos\arithmeticExpressions\build\samples\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\build\samples\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Vlad\source\repos\arithmeticExpressions\samples\main.cpp" />
+    <ClCompile Include="C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\samples\main.cpp" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Vlad\source\repos\arithmeticExpressions\build\ZERO_CHECK.vcxproj">
-      <Project>{3E5155CA-ECCD-3A01-85BC-C25C1B60F328}</Project>
+    <ProjectReference Include="C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\build\ZERO_CHECK.vcxproj">
+      <Project>{3A6C56E3-F10C-34DE-BD61-A0C59AC3995A}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Vlad\source\repos\arithmeticExpressions\build\MathEq.vcxproj">
-      <Project>{2BD18C10-61E4-346C-A288-17A7861D0CD4}</Project>
+    <ProjectReference Include="C:\Users\Vlad\source\repos\MathConstr\arithmeticExpressions\arithmeticExpressions\build\MathEq.vcxproj">
+      <Project>{42E3096E-CA3B-3CD3-A690-5E8EBFBAB193}</Project>
       <Name>MathEq</Name>
     </ProjectReference>
   </ItemGroup>

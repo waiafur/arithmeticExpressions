@@ -14,6 +14,7 @@ class MathEq {
 	int res;
 public:
 	MathEq(string eq) {
+		if (eq == "") throw "no el in MathEq";
 		TextIn = eq;
 		lexeminator temp(TextIn.size());
 		
@@ -24,6 +25,19 @@ public:
 		lexEq = temp1.syntaxinate(lexEq);
 		postEq = temp2.postfixinate(lexEq);
 		res = temp3.res(postEq);
+	}
+	MathEq(const MathEq& other) {
+		TextIn = other.TextIn;
+		lexEq = other.lexEq;
+		postEq = other.postEq;
+		res = other.res;
+	}
+	MathEq& operator=(const MathEq& other) {
+		TextIn = other.TextIn;
+		lexEq = other.lexEq;
+		postEq = other.postEq;
+		res = other.res;
+		return *this;
 	}
 	string getTextInf() { return TextIn; }
 	queue<token> getQueueIn() { return lexEq; }
